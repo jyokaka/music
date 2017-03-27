@@ -1,0 +1,109 @@
+.musicBox{
+	height: 500px;
+	width: 500px;
+	margin: 30px auto;
+	position: relative;
+	background: url(images/6.png) no-repeat ;
+}
+.music{
+	height: 50px;
+	width: 500px;
+	float: left;
+	background: rgb(37,36,40);
+	position: absolute;
+	bottom: 0px;
+}
+.control{
+	width: 140px;
+	float: left;
+}
+.back{
+	width: 35px;
+	height: 32px;
+	display: inline-block;
+	padding-bottom: 3px;
+	cursor: pointer;
+	background: url(images/1.png) no-repeat ;
+}
+.play{
+	width: 40px;
+	height: 37px;
+	display: inline-block;
+	margin-top: 5px;
+	cursor: pointer;
+	background: url(images/2.png) no-repeat ;
+}
+
+.pause{
+	width: 40px;
+	height: 37px;
+	display: inline-block;
+	margin-top: 5px;
+	cursor: pointer;
+	background: url(images/5.png) no-repeat ;
+}
+.forward{
+	width: 35px;
+	height: 32px;
+	display: inline-block;
+	padding-bottom: 1px;
+	cursor: pointer;
+	background: url(images/3.png) no-repeat ;
+}
+.song-title{
+	font-family: 宋体;
+	font-size: 25px;
+	text-align: center;
+}
+.song-author{
+	font-family: 宋体;
+	font-size: 14px;
+	text-align: center;
+}
+.progress{
+	width: 200px;
+	float: left;
+}
+
+.bar{
+	background-color: rgba(70, 70, 70, 1);
+	height: 3px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.progress-now{
+	background: red;
+	width: 0px;
+	height: 3px;
+}
+.time{
+	color: white;
+	font-size: 16px;
+	float: left;
+	margin: 16px 10px;
+}
+.voice{
+	width: 22px;
+	height: 17px;
+	display: inline-block;
+	background: url(images/4.png) no-repeat;
+	float: left;
+	margin-top: 16px;
+}
+.voice-progress{
+	float: left;
+	margin-left: 2px;
+}
+
+.voice-bar{
+	width: 75px;
+	background-color: rgba(70, 70, 70, 1);
+	height: 3px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.voice-now{
+	background: red;
+	width: 75px;
+	height: 3px;
+}
